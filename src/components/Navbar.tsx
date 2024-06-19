@@ -1,10 +1,16 @@
 import { NavLink } from "react-router-dom"
+import "../styles/Navbar.css"
 
 export const Navbar = () => {
     return(
         <>
+            
         <nav>
-            <ul>
+                <div className="navbarContainer">
+            <img 
+            src="/src/assets/zoo.png" alt=""
+            className="loggan" />
+            <ul className="liFlexed">
                 <li>
                     <NavLink to={"/"}>Hem</NavLink>
                 </li>
@@ -12,6 +18,7 @@ export const Navbar = () => {
                     <NavLink to={"/djuren"}>Djuren</NavLink>
                 </li>
             </ul>
+                </div>
         </nav>
         </>
     )

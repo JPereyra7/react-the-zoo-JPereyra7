@@ -1,0 +1,34 @@
+.djurContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.ulContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.djurItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 2em;
+  width: calc(100% / 2 - 4em);
+  max-width: 300px;
+}
+
+.imageContainer {
+  max-width: 80%;
+  border-radius: 5px;
+}
+
+.paragrafContainer {
+  max-width: 100%;
+}

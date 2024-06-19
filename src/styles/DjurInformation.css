@@ -1,0 +1,15 @@
+.djurContainer {
+    display: flex;
+    gap: 0.5em;
+}
+
+
+.imageContainer {
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.paragraphContainer {
+    max-width: 50%;
+  }
+  
